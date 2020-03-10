@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Classes</title>
+
+    <style>
+        a {
+            color: black;
+        }
+
+        div a {
+            display: block;
+        }
+        .red {
+            background-color: red;
+        }
+
+        .purple {
+            background-color: purple;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .red:hover {
+            background-color: royalblue;
+        }
+        
+        .purple:hover {
+            background-color: royalblue;
+        }
+
+        .green:hover {
+            background-color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Pseudo Classes</h1>
+    <a href="https://www.startpage.com"><h2 class="red">Startpage</h2></a>
+    <a href="https://www.google.com"><h2 class="purple">Google</h2></a>
+    <a href="https://www.duckduckgo.com"><h2 class="green">Duckduckgo</h2></a>
+
+    <div style="margin-left: 30px;">
+        <a class="red" href="https://en.wikipedia.org/wiki/Startpage.com">Article about Startpage</a>
+        <a class="purple" href="https://en.wikipedia.org/wiki/Google">Article about Google</a>
+        <a class="green" href="https://en.wikipedia.org/wiki/DuckDuckGo">Article about Duckduckgo</a>
+    </div>
+</body>
+</html>
