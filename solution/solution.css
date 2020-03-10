@@ -1,0 +1,53 @@
+body {
+    background-image: url("winter-moutain-4910186_1920.jpg")
+}
+
+
+.google {
+    color: rgb(72, 255, 0);
+    font-size: 30px;
+    background-color: blue;
+}
+.bing {
+    color: rgb(212, 64, 5);
+    font-size: 30px;
+    background-color: yellow;
+    
+}
+.yahoo {
+    color: magenta;
+    font-size: 30px;
+    background-color: mediumorchid;
+}
+.things {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: mediumvioletred;
+    color: black;
+    
+
+} 
+.shadow {
+    font-size: 20px;
+    width: 50%;
+    margin-left: 25%;
+    color: black;
+    background-color: blue;
+}
+.pseudo {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+    background-color: blanchedalmond;
+}
+.things:active {
+    background-color: rgb(77, 199, 21);
+}
+.shadow:visited {
+    background-color: coral;
+}
+.pseudo:hover {
+    background-color: crimson;
+}
