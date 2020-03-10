@@ -1,0 +1,96 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    border: solid #444;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.browser,
+.useful-links {
+    background: #b7f1eaa8;
+    width: auto;
+    height: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul,
+.links {
+    height: 70%;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.links span {
+    margin: 5px;
+    background-color: #fff;
+    height: 40px;
+    width: 90%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-bottom: 2px solid lightskyblue;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 3px 3px #222;
+}
+
+ul li {
+    text-transform: uppercase;
+    background-color: lightskyblue;
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    border: 3px solid blue;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+
+
+}
+
+ul li a {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    width: 320px;
+}
+
+ul li,
+ul li a {
+    cursor: pointer;
+}
+
+ul li:hover {
+    background: blue;
+    color: #fff;
+}
