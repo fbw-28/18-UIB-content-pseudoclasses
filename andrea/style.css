@@ -1,0 +1,47 @@
+body {
+   background-color:whitesmoke  
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+
+
+a:hover {
+    color: #FF00FF;
+}
+
+#duckduckgo {
+    color:white;
+    background-color:orange;
+    font-size: 50px;
+}
+
+#ecosia {
+    color:green;
+    background-color:rgb(98, 221, 230);
+    font-size: 50px;
+}
+
+
+#qwant {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+div {
+    font-size:40px;
+}
