@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        button {
+            padding: 10px;
+        }
+
+        #google,
+        #robert {
+            background-color: rgb(185, 185, 16);
+        }
+
+        #yandex,
+        #bill {
+            background-color: teal;
+        }
+
+        #bing,
+        #linus {
+            background-color: purple;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button:hover {
+            color: red;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:visited {
+            color: darkgreen;
+        }
+
+        a:active {
+            color: darkslateblue;
+        }
+
+        .list {
+            width: 350px;
+            font-size: 28px;
+        }
+
+        li {
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="buttons">
+        <a href="https://www.google.com/"><button id="google">Google</button></a><br><br>
+        <a href="https://yandex.ru/"><button id="yandex">Yandex</button></a><br><br>
+        <a href="https://www.bing.com/"><button id="bing">Bing</button></a>
+    </div>
+
+    <div class="list">
+        <ul>
+            <li id="linus"><a href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">About Linus
+                    Torvalds</a></li>
+            <li id="bill"><a href="https://en.wikipedia.org/wiki/Bill_Gates" target="_blank">About Bill Gates</a></li>
+            <li id="robert"><a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="_blank">About Robert C.
+                    Martin</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
