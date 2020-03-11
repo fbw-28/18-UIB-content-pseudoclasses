@@ -1,0 +1,24 @@
+a.one:hover {
+    color: #ff0000;
+  }
+
+  a.two:hover {
+    color: #fff000;
+  }
+
+  p {
+
+    text-align: center;
+    padding-top: 1cm;
+  }
+
+  body {
+
+    background-color: blue;
+  }
+
+  p.two {
+
+    color: white;
+    text-align: center;
+  }
