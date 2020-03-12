@@ -1,0 +1,64 @@
+.one:link {color: white;
+    background-color: red;
+    text-decoration: underline;
+    font-size: 200px;
+}
+.two:link {color: white;
+    background-color:blue;
+    text-decoration: underline;
+    font-size: 200px;
+}
+.three:link {color: white;
+    background-color:green;
+    text-decoration: underline;
+    font-size: 200px;
+}
+.one:visited {color: white;
+    background-color: red;
+    text-decoration: underline;
+    font-size: 200px;
+}
+.two:visited {color: white;
+    background-color:blue;
+    text-decoration: underline;
+    font-size: 200px;
+}
+.three:visited {color: white;
+    background-color:green;
+    text-decoration: underline;
+    font-size: 200px;
+}
+
+
+.direction  {direction:rtl} 
+
+.four:link {color: white;
+    background-color: red;
+    text-decoration: underline;
+    font-size: 150px;
+}
+.five:link {color: white;
+    background-color:blue;
+    text-decoration: underline;
+    font-size: 150px;
+}
+.six:link {color: white;
+    background-color:green;
+    text-decoration: underline;
+    font-size: 150px;
+}
+.four:visited {color: white;
+    background-color: red;
+    text-decoration: underline;
+    font-size: 150px;
+}
+.five:visited {color: white;
+    background-color:blue;
+    text-decoration: underline;
+    font-size: 150px;
+}
+.six:visited {color: white;
+    background-color:green;
+    text-decoration: underline;
+    font-size: 150px;
+}
